@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/msys64/ucrt64/include/**",
+        "C:/msys64/ucrt64/include/wx-3.2/**",  // Explicit wxWidgets include
+        "C:/msys64/ucrt64/lib/wx/include/msw-unicode-3.2/**",
+        "C:/msys64/ucrt64/include/**"
+      ],
+      "defines": [
+        "__WXMSW__",
+        "_UNICODE"
+      ],
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
